@@ -101,6 +101,7 @@ int main() {
 	int a , b , c , d;
 	scanf("%d%d%d%d", &a , &b , &c , &d);
 	int arr[4] = {a,b,c,d};
+	//code sai . Neu testcase: 8 0 7 2 => 08:27 nhung in -1.
 	tim_time(arr);
 	return 0;
 }
